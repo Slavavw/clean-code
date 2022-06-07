@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title>Todo App</title>
+   <link href='https://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet'>
+   <link rel="stylesheet" href="style.css" media="screen" charset="utf-8">
+   <script src="app.js" defer></script>
+</head>
+<body>
+   <div class="matrix-eisenhower">
+      <img class="matrix-eisenhower__img" src="./eisenhower-matrix.jpg" alt="eisenhower matrix">
+      <a href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?;</a>
+   </div>
+   <div class="main-page">
+      <p>
+         <h3>Add Item</h3>
+         <div class="add-task">
+            <input id='new-task'class="task" type="text" placeholder="enter scheduled task">
+            <button class ="add-task__btn" >Add</button>
+         </div>
+      </p>
+      <h3>Todo</h3>
+      <ul id='incomplete-tasks'></ul>
+      <h3>Completed</h3>
+      <ul id="completed-tasks"></ul>
+   </div>
+</body>
+</html>
